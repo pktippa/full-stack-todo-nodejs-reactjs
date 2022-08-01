@@ -4,6 +4,11 @@ Environment requirements
 
 - NodeJs v14.x
 - Npm 8.x
+- MySQL 8
+
+## Database Setup
+
+Create a new MySQL database with name "todo", and give permissions to the user you are connecting with.
 
 ## API Setup
 
@@ -13,7 +18,6 @@ Install the dependencies (node modules)
 $ cd full-stack-todo-nodejs-reactjs && cd api && npm install
 ```
 
-Create a new MySQL database with name "todo".
 Update `api\.env` file with MySQL related environment variables.
 
 Run the database migration script
